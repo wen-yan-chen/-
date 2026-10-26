@@ -1,0 +1,15 @@
+﻿id,sentence,gold_type,llm_type,llm_conf,llm_reason,is_correct
+1,The system shall store the current balance in the bank.,词汇歧义,词汇歧义,0.95,bank既可指银行也可指河岸，导致存储位置不明确。,1
+2,The system shall notify the user with the report.,句法歧义,句法歧义,0.95,介词短语“with the report”既可修饰“notify”表示用报告通知，也可修饰“the user”表示通知携带报告的用户。,1
+3,All users must change their password every 30 days.,语义歧义,语义歧义,0.85,their password的单复数与all users的量词范围不清，可能指所有用户共用一个密码或每个用户各自的密码。,1
+4,The trucks shall treat the roads before they freeze.,语用歧义,语用歧义,0.95,代词they既可指trucks也可指roads，指代不明导致歧义。,1
+5,The data process daily.,语法歧义,语法歧义,0.95,process词性不明，可理解为名词（数据流程）或动词（处理数据），导致句子缺少合法谓语结构。,1
+6,The systm shall respond quickly.,语言错误歧义,语言错误歧义,1.0,规则命中：检测到明显拼写错误,1
+7,The system shall display the user name on the home page.,无歧义,无歧义,0.95,句子结构清晰，主谓宾完整，无指代不明或修饰歧义。,1
+8,The operator shall open the valve with the red handle.,句法歧义,句法歧义,0.9,介词短语'with the red handle'既可修饰'open'表示用红色手柄打开阀门，也可修饰'valve'表示打开红色手柄的阀门。,1
+9,Every student must submit their assignment.,语言错误歧义,语言错误歧义,1.0,规则命中：Every 搭配了复数的 their,1
+10,The system shall process all requests quickly.,词汇歧义,词汇歧义,1.0,规则命中：检测到模糊词汇,1
+11,"If the alarm rings, the operator shall stop the machine.",无歧义,无歧义,0.95,句子结构清晰，主谓宾完整，无指代不明或修饰歧义。,1
+12,The report shall be sent to the manager after it is approved.,语用歧义,语用歧义,0.85,代词it指代不明，可能指报告或经理，导致批准对象不清。,1
+13,Only administrators can delete files.,语义歧义,语义歧义,1.0,规则命中：Only 的作用域不明确,1
+14,The system shall validate the input.,无歧义,无歧义,0.95,句子是结构清晰的主谓宾结构，用词标准，没有指代不明的代词或修饰歧义。,1

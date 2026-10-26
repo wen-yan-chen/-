@@ -1,0 +1,15 @@
+id,sentence,gold_type
+1,"The system shall store the current balance in the bank.",词汇歧义
+2,"The system shall notify the user with the report.",句法歧义
+3,"All users must change their password every 30 days.",语义歧义
+4,"The trucks shall treat the roads before they freeze.",语用歧义
+5,"The data process daily.",语法歧义
+6,"The systm shall respond quickly.",语言错误歧义
+7,"The system shall display the user name on the home page.",无歧义
+8,"The operator shall open the valve with the red handle.",句法歧义
+9,"Every student must submit their assignment.",语言错误歧义
+10,"The system shall process all requests quickly.",词汇歧义
+11,"If the alarm rings, the operator shall stop the machine.",无歧义
+12,"The report shall be sent to the manager after it is approved.",语用歧义
+13,"Only administrators can delete files.",语义歧义
+14,"The system shall validate the input.",无歧义
