@@ -1,5 +1,10 @@
 # 基于大语言模型与启发式规则的需求歧义检测与修复
 
+![Python](https://img.shields.io/badge/Python-3.14-blue)
+![LLM](https://img.shields.io/badge/LLM-DeepSeek-green)
+![Architecture](https://img.shields.io/badge/Architecture-Rule%2BLLM-orange)
+![Domain](https://img.shields.io/badge/Domain-Requirements-red)
+
 这是一个基于大语言模型（LLM）的软件需求歧义自动化检测与修复小科研实践项目。本项目复现并验证了刘芳（2026）《基于大语言模型的需求歧义检测和修复的方法研究》一文中的核心思想，实现了一个**“启发式规则预筛选 + LLM 推理”**的混合检测架构，以及基于 CoT 的结构化修复框架。
 
 ## 项目背景
